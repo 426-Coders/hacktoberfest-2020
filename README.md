@@ -76,7 +76,6 @@ _Do not use special characters in the template above._
 
 ## 4. Wait for Pull Request to merge✔✔
 
-## 5. Celebrate - Congratulations you've just completed your first pull request in Hacktoberfest2020!!🎉🎉
 
 ## Organized by:
 [426 Coders Team From Patan Multiple Campus.](https://github.com/426-Coders)
