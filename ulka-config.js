@@ -10,7 +10,7 @@ module.exports = {
     plugins: [],
     contents: [
       {
-        path: "contributers",
+        path: "contributors",
         generatePath: ".",
         template: "hack.ulka",
       },
