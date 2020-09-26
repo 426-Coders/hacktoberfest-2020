@@ -1,4 +1,4 @@
 ---
 name: "bytesagar"
-image: "sagar.JPG"
+image: "bytesagar.JPG"
 ---
