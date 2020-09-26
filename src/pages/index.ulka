@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | {% globalInfo.configs.siteMetaData.title %}</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% $assets('../styles/style.css') %}" />
 </head>
 
 <body>
-    {% globalInfo.contentFiles.contributers.map(content => {
-        return `<a href="${content.link}"><img src="${$assets('../images/' + content.frontMatter.image)}" width="30%"/></a>`
+<div class="container">
+<h1 class="text-center">Hactoberfest &copy2020</h1>
+<div class="profile-container ">
+     {% globalInfo.contentFiles.contributers.map(content => {
+        return `<div><a href="${content.link}"><div class="profile-image"><img src="${$assets('../images/' + content.frontMatter.image)}" /></div></a></div>`
     }) %}
+
+</div>
+ 
+</div>
+
+  
 </body>
 
 </html>

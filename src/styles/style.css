@@ -1,0 +1,27 @@
+
+.profile-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* see notes below */
+    grid-column-gap: 15px;
+  
+    margin: 30px 30px;
+
+}
+
+.profile-image{
+    object-fit: contain;
+    border: 10px solid rgb(77, 255, 18);
+    border-radius: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
