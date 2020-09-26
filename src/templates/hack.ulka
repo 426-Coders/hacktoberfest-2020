@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% frontMatter.name %} | {% globalInfo.configs.siteMetaData.title %}</title>
+    <style>
+
+    </style>
+    
+</head>
+
+<body>
+    <p>Name: {% frontMatter.name %}</p>
+
+    <img src="{% $assets(`../images/${frontMatter.image}`) %}"  />
+
+    Github: <a href="https://github.com/{% frontMatter.name %}">Click Me</a>
+
+    {% data %}
+</body>
+
+</html>
