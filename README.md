@@ -1,6 +1,6 @@
 # hacktoberfest-2020
 
-Make your first Pull Request and earn a free tee from GitHub!
+Make your first Pull Request to brush up your Git skills for Hacktoberfest by contributing to this repository!
 
 ![Hacktoberfest 2020](https://github.com/426-Coders/hacktoberfest-2020/blob/master/images/hacktoberfest2020.png)
 
@@ -41,7 +41,7 @@ Replace `<your-username>` with your GitHub username in this guide.
 
 ## 1. Add your profile picture to the folder
 
-Add a picture picture of your choice in `src/image`. Accepted files are **jpg** and **png**, should be squared and minimum size 544x544 pixels. Ex.
+Add a picture picture of your choice in `src/image`. Accepted files are **jpg** and **png**, should be squared in shape. Ex.
 
 ```
 src/image/<your-username>.jpg
