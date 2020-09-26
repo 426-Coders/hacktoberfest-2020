@@ -1,7 +1,7 @@
 ---
 name: "Sushan Shakya"
 username: "SushanShakya"
-image: "SushanShakya.JPG"
+image: "SushanShakya.jpg"
 facebook: "sushaan.shakya"
 ---
 

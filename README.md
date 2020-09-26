@@ -12,7 +12,7 @@ Make your first Pull Request and earn a free tee from GitHub!
 
 - Fork this Repository using the button at the top right side
 - Clone your forked repository into your local machine `git clone https://github.com/<your-username>/hacktoberfest-2020.git`
-- Create a new branch for your modifications (ie. `git branch <your-branch-name>` and check it out `git checkout <your-branch-name>` and `git checkout -b <your-branch-name>`)
+- Create a new branch for your modifications (ie.  `git checkout -b <your-branch-name>`)
 - Add your profile image `github-username.jpg` inside `src/image`
 - Add your profile info by making make new file named `github-username.md` inside `src/contributors`
  Inside `github-username.md` copy the below template and edit your details
