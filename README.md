@@ -2,7 +2,7 @@
 
 Make your first Pull Request and earn a free tee from GitHub!
 
-![Hacktoberfest 2020](hacktoberfest2020.png)
+![Hacktoberfest 2020](https://github.com/426-Coders/hacktoberfest-2020/blob/master/images/hacktoberfest2020.png)
 
 # Welcome to GitHub!
 
