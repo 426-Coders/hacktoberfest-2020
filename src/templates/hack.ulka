@@ -37,7 +37,10 @@
                 frontMatter.instagram && `<a href="https://instagram.com/${frontMatter.instagram}"><div class="ig"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>`
             %}
             {% 
-                frontMatter.twitter && `<a href="https://twitter.com/${frontMatter.twitter}"><div class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>`
+                frontMatter.twitter && `<a href="https://twitter.com/${frontMatter.twitter}">
+                    <div class="tw">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div></a>`
             %}
         </div>
       <div class="text-container">
