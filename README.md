@@ -61,8 +61,13 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 
 ```
 ---
-name: "<github username>"  // your github username
-image: "<your image name>"  // this image name should be the actual name of image you uploaded
+
+ name: "<your name>"
+ username: "<github username>"
+ image: "<your-image-name>"    // this image name should be the actual name of image you uploaded
+ facebook: "<your facebook username>"
+
+ 
 ---
 
 ```
