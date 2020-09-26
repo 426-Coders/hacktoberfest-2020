@@ -58,9 +58,10 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 
 ```
 ---
-name: "<github username>"
-image: "<your image name>"
+name: "<github username>"  // your github username
+image: "<your image name>"  // this image name should be the actual name of image you uploaded
 ---
+
 ```
 
 _Do not use special characters in the template above._
@@ -73,4 +74,5 @@ _Do not use special characters in the template above._
 [426 Coders Team From Patan Multiple Campus.](https://github.com/426-Coders)
 
 
-### Thank you
+
+## [Hactoberfest 2020 Live Preview ](https://426codershacktoberfest2020.netlify.app/)
