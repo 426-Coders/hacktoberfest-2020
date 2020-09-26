@@ -74,7 +74,7 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 
 _Do not use special characters in the template above._
 
-## 4. Wait for Pull Request to merge✔✔
+## 3. Wait for Pull Request to merge✔✔
 
 
 ## Organized by:
