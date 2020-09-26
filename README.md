@@ -19,8 +19,11 @@ Make your first Pull Request and earn a free tee from GitHub!
  ---
  ```
  ---
- name: "<github-username>"
+ name: "<your name>"
+ username: "<github username>"
  image: "<your-image-name>"
+ facebook: "<your facebook username>"
+
  ---
  ```
 ---
