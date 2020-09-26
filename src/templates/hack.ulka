@@ -1,22 +1,65 @@
+<!-- This card is from https://codepen.io/nsatee/pen/jmyMpE -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% frontMatter.name %} | {% globalInfo.configs.siteMetaData.title %}</title>
-        <link rel="stylesheet" href="{% $assets('../styles/page.css') %}" />
-
-    
+    <link rel="stylesheet" href="{% $assets('../styles/page.css') %}" />
+    <link rel="stylesheet" href="{% $assets('./card.css') %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    {% $import('../components/meta-tags.ulka', {
+        image: $assets(`../images/${frontMatter.image}`)
+    }) %}
+    <style>
+    .item .img-content {
+        width: 100%;
+        height: 100%;
+        transition: 0 !important;
+        background-image: url({% $assets(`../images/${frontMatter.image}`) %});
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    </style>
 </head>
-
 <body>
-    <p>Name: {% frontMatter.name %}</p>
-
-    <img src="{% $assets(`../images/${frontMatter.image}`) %}"  />
-
-    Github: <a href="https://github.com/{% frontMatter.name %}">Click Me</a>
-
-    {% data %}
+    
+<div class="container">
+  <div class="item-list">
+    <div class="item item-1">
+      <div class="img"><a target="_blank" href="{% $assets(`../images/${frontMatter.image}`) %}">
+        <div class="img-content"></div>
+      </a>
+      </div>
+        <div class="social">
+            {% 
+                frontMatter.facebook && `<a href="https://facebook.com/${frontMatter.facebook}"><div class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>`
+            %}
+            {% 
+                frontMatter.instagram && `<a href="https://instagram.com/${frontMatter.instagram}"><div class="ig"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>`
+            %}
+            {% 
+                frontMatter.twitter && `<a href="https://twitter.com/${frontMatter.twitter}">
+                    <div class="tw">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div></a>`
+            %}
+        </div>
+      <div class="text-container">
+        <h2 class="title">{% frontMatter.name %}</h2>
+        <div class="content">
+         {%  data %}
+        </div>
+        <div class="readmore">
+          <h3>
+            <a href="https://github.com/{% frontMatter.username %}">Github</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>

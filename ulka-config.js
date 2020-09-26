@@ -1,7 +1,7 @@
 module.exports = {
     siteMetaData: {
       title: "hacktoberfest-2020",
-      description: "",
+      description: "hacktoberfest-2020",
       domain: "https://ulka-starter-default.netlify.app/",
     },
     buildPath: "build",

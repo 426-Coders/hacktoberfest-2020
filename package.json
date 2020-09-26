@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ulka build",
+    "serve": "ulka serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ulka": "^0.5.2"
+    "ulka": "^0.5.3"
   }
 }
