@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+body {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular",
+    sans-serif;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  letter-spacing: 0;
+}
+
+.scroll {
+  overflow: scroll !important;
+}
+
+.item {
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.item .img {
+  width: 100%;
+  height: 50%;
+  background: black;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+}
+.item.showfull .text-container {
+  height: 90%;
+}
+.item.showfull .content {
+  height: 78%;
+}
+.item.showfull .social {
+  top: 25px;
+}
+.item.showfull .img-content {
+  transform: scale(1.04);
+  filter: blur(5px);
+}
+
+.item .text-container {
+  width: 100%;
+  height: 55%;
+  background: #fff;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  box-shadow: -3px -10px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.item .content {
+  max-height: 63%;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+.item .social {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  z-index: 15;
+  top: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.item h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.item .social div {
+  width: 50px;
+  height: 50px;
+  background: green;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.item .social div:hover {
+  transform: scale(1.1);
+}
+.item .social a:last-child {
+  margin-right: 20px;
+}
+.item a .tw {
+  background-color: #0084b4;
+}
+.item a .fb {
+  background-color: #3b5998;
+}
+.item a .ig {
+  background-color: #cd486b;
+}
+
+.item .readmore {
+  display: flex;
+  padding-bottom: 5px;
+}
+.item .readmore h3 {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 40px;
+  border: 1px solid;
+  cursor: pointer;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
