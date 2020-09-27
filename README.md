@@ -66,13 +66,15 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 
  name: "<your name>"
  username: "<github username>"
- image: "<your-image-name>"    // this image name should be the actual name of image you uploaded
+ image: "<your-image-name>"   
  facebook: "<your facebook username>"
 
- 
 ---
 Add About Yourself
+
 ```
+
+> Note: Your image name in the template should be same img name you uploaded with extension.
 
 _Do not use special characters in the template above._
 
