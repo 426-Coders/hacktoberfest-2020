@@ -70,7 +70,7 @@ Copy the next template into your file, delete the boilerplate data and fill the 
  facebook: "<your facebook username>"
 
 ---
-Add About Yourself
+Add About Yourself 🖋📜
 
 ```
 
