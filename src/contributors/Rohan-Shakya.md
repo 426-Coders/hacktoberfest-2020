@@ -1,6 +1,6 @@
 ---
 name: 'Rohan Shakya'
-username: 'SRohan-Shakya'
+username: 'Rohan-Shakya'
 image: 'Rohan-Shakya.jpg'
 facebook: 'Rohan.Shakya254'
 ---
