@@ -11,6 +11,7 @@ Make your first Pull Request to brush up your Git skills for Hacktoberfest by co
 ## Instructions-
 
 - Fork this Repository using the button at the top right side
+https://github.com/426-Coders/hacktoberfest-2020/blob/master/images/fork.jpg
 - Clone your forked repository into your local machine `git clone https://github.com/<your-username>/hacktoberfest-2020.git`
 - Create a new branch for your modifications (ie.  `git checkout -b <your-branch-name>`)
 - Add your profile image `github-username.jpg` inside `src/image`
