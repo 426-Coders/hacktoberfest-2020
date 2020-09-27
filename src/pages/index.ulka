@@ -12,35 +12,28 @@
 </head>
 
 <body>
-<div class="container">
-<h1 class="text-center mt-3">Hacktoberfest &copy2020</h1>
-<div class="container mt-5">
- <div class="row">
-     {% globalInfo.contentFiles.contributors.map(content => {
-        return `
- 
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
-      <div class="our-team">
-        <div class="picture">
-          <img class="img-fluid" src="${$assets('../images/' + content.frontMatter.image)}" />
-        </div>
-        <div class="team-content">
-          <h3 class="name"><a href="${content.link}">${content.frontMatter.name}</a></h3>
-        </div>
+  <div class="container">
+    <h1 class="text-center mt-3">Hacktoberfest &copy2020</h1>
+    <div class="container mt-5">
+      <div class="row">
+          {% globalInfo.contentFiles.contributors.map(content => {
+              return `
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                  <div class="our-team">
+                    <div class="picture">
+                      <img class="img-fluid" src="${$assets('../images/' + content.frontMatter.image)}" />
+                    </div>
+                    <div class="team-content">
+                      <h3 class="name"><a href="${content.link}">${content.frontMatter.name}</a></h3>
+                    </div>
+                  </div>
+                </div>
+              `
+          }) %}
       </div>
     </div>
- 
-
-        `
-    }) %}
- </div>
-
- </div>
-</div>
-
-  
+  </div>
 </body>
-
 </html>
 
 

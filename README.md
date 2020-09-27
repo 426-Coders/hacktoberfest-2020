@@ -6,30 +6,30 @@ Make your first Pull Request to brush up your Git skills for Hacktoberfest by co
 
 # Welcome to GitHub!
 
-## This project is perfect starting point for your first Pull Request ( PR )
+_This project is perfect starting point for your first Pull Request ( PR )_
 
-## Instructions-
+## Instructions
 
 - Fork this Repository using the button at the top right side <img align="right" width="300" src="https://github.com/426-Coders/hacktoberfest-2020/blob/master/images/fork.jpg" alt="fork this repository" />
 
 - Clone your forked repository into your local machine `git clone https://github.com/<your-username>/hacktoberfest-2020.git`
-- Create a new branch for your modifications (ie.  `git checkout -b <your-branch-name>`)
-- Add your profile image `github-username.jpg` inside `src/image`
+- Create a new branch for your modifications (ie. `git checkout -b <your-branch-name>`)
+- Add your profile image `github-username.jpg` inside `src/images`
 - Add your profile info by making make new file named `github-username.md` inside `src/contributors`
- Inside `github-username.md` copy the below template and edit your details
- ---
- ```
- ---
- name: "<your name>"
- username: "<github username>"
- image: "<your-image-name>"
- facebook: "<your facebook username>"
+  Inside `github-username.md` copy the below template and edit your details. ( facebook, instagram, and twitter are optional. )
+  ```
+  ---
+  name: "<your name>"
+  username: "<github username>"
+  image: "<your-image-name>"
+  facebook: "<your facebook username>"
+  instagram: "<your instagram username>"
+  twitter: "<your twitter username>"
+  ---
+  Add About Yourself
+  ```
 
- ---
- Add About Yourself
- ```
----
- * after you have done the changes
+* after you have done the changes
 
 - `git add .` to add your changes
 - `git commit -m <your commit message>`
@@ -59,16 +59,16 @@ Create a markdown file in your folder following the convention `src/contributors
 src/contributors/<your-username>.md/
 ```
 
-Copy the next template into your file, delete the boilerplate data and fill the information with yours.
+Copy the next template into your file, delete the boilerplate data and fill the information with yours (facebook, twitter and instagram are optional).
 
 ```
 ---
-
- name: "<your name>"
- username: "<github username>"
- image: "<your-image-name>"   
- facebook: "<your facebook username>"
-
+name: "<your name>"
+username: "<github username>"
+image: "<your-image-name>"
+facebook: "<your facebook username>"
+instagram: "<your instagram username>"
+twitter: "<your twitter username>"
 ---
 Add About Yourself 🖋📜
 
@@ -86,11 +86,10 @@ _Do not use special characters in the template above._
 
 ## 4. Wait for Pull Request to merge✔✔
 
-
+---
 
 ## Organized by:
+
 [426 Coders Team From Patan Multiple Campus.](https://github.com/426-Coders)
 
-
-
-## [Hactoberfest 2020 Live Preview ](https://426codershacktoberfest2020.netlify.app/)
+**[Hactoberfest 2020 Live Preview ](https://426codershacktoberfest2020.netlify.app/)**
