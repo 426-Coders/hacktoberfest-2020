@@ -13,7 +13,7 @@
 
 <body>
   <div class="container">
-    <h1 class="text-center mt-3">Hacktoberfest &copy2020</h1>
+    <h1 id="title" class="text-center mt-3">Hacktoberfest &copy2020</h1>
     <div class="container mt-5">
       <div class="row">
           {% globalInfo.contentFiles.contributors.map(content => {
@@ -33,6 +33,36 @@
       </div>
     </div>
   </div>
+  <div id="toggle-dark"></div>
+  <script>
+ 
+    function changeTheme(theme){
+      localStorage.setItem('theme', theme)
+      const cardColor = theme === "dark" ? "#070d19" : "";
+      const bodyColor = theme === "dark" ?  "#0e182a" : ""
+      const titleColor = theme === "dark" ? "#fff": "#000"
+      const emoji = theme === "light" ? "🌑" : "☀️"
+
+      document.querySelectorAll('.our-team').forEach(node => {
+        node.style.backgroundColor = cardColor
+      })
+      
+      document.body.style.backgroundColor = bodyColor
+      
+      document.querySelector('#title').style.color = titleColor
+
+      document.querySelector("#toggle-dark").textContent = emoji
+    }
+
+    let theme = localStorage.getItem('theme') || "light"
+    changeTheme(theme)
+
+    document.querySelector('#toggle-dark').addEventListener('click', () => {
+      const newTheme = theme === "dark" ? "light": "dark"
+      changeTheme(newTheme)
+      theme = newTheme
+    })
+  </script>
 </body>
 </html>
 
