@@ -1,0 +1,6 @@
+name: "Upama Duuta"
+username: "Upama677"
+image: "upama.jpg"
+facebook: "Upama Dutta"
+instagram: "Upama677"
+twitter: "Upama677"
