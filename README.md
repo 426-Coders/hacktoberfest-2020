@@ -1,6 +1,6 @@
 # hacktoberfest-2020
 
-Make your first Pull Request to brush up your Git skills for Hacktoberfest by contributing to this repository!
+Make your first Pull Request to brush up your Git skills for Hacktoberfest by contributing to this repository! PS: It won't count to hacktoberfest PR.
 
 ![Hacktoberfest 2020](https://github.com/426-Coders/hacktoberfest-2020/blob/master/images/hacktoberfest2020.png)
 
