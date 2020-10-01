@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+    <link rel="stylesheet" href="new.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+<title>Netflix Clone ❤</title>
+</head>
+<body>
+<div class="container">
+      <img
+        style="position: fixed;"        
+       src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+        width="80"
+        style="margin: 20px;"
+      />
+</div>
+<div>
+	<h2 style="margin:8px;">Netflix Orginals</h2>
+	<div class="row">
+	 <img src="https://cdn.idesignow.com/public_html/img/2011/08/superhero_movie_poster_6.jpg"
+	 width="140"
+	 height="200" />
+	 <img src="https://3.bp.blogspot.com/-H57vRpipBhs/T92h_GLMFAI/AAAAAAAAAAc/zLYxoSfXv9w/s1600/avatar_movie_poster_final_01.jpg"
+	 width="140"
+	 height="200" />
+	 <img src="https://i.pinimg.com/236x/a3/57/06/a35706d6b5f55428e34c364977d1b45a--christopher-nolan-design-poster.jpg"
+	 width="140"
+	 height="200"  />
+	 <img src="https://images-na.ssl-images-amazon.com/images/I/51S6ufyLsML.jpg"
+	 width="140"
+	 height="200"  />
+	 <img src="https://images-na.ssl-images-amazon.com/images/I/715cbPQvHaL._SL1296_.jpg"
+	 width="140"
+	 height="200"  />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTq9KFcNNMIxL9Vsr1YpD__-jxKvuM68pui5g&usqp=CAU"
+	  width="140"
+	 height="200"  />
+	 <img src="https://www.seelatest.com/images/terminator-dark-fate-hollywood-movie-poster.jpg"
+	  width="140"
+	 height="200"  />
+	 <img src="https://blog.karachicorner.com/wp-content/uploads/2013/04/large/TheWolverine+movie+posters.jpg"
+	  width="140"
+	 height="200"  />
+	 <img src="https://sep.yimg.com/ay/hollywoodgallery/star-wars-the-last-jedi-movie-poster-episode-viii-full-size-24x36-print-hamill-fisher-1.gif"
+	  width="140"
+	 height="200"  />
+	 <img src="https://images-na.ssl-images-amazon.com/images/I/71Cx-rnPQAL._SL1368_.jpg"
+	  width="140"
+	 height="200"  />
+	 <img src="https://cdn.shopify.com/s/files/1/0969/9128/products/Hollywood_Movie_Poster_-_First_Blood_d575d667-8c13-4c39-a191-df2b8929d3af.jpg?v=1519646884"
+	  width="140"
+	 height="200"  />
+	 <img src="https://i.pinimg.com/originals/9b/94/b1/9b94b1a65b42d71984cf5c68ede1262b.jpg"
+	  width="140"
+	 height="200"  />
+	 <img src="https://images-na.ssl-images-amazon.com/images/I/81Eb%2B8SwFWL._SL1500_.jpg"
+	 width="140"
+     height="200" />
+    </div>
+</div>
+
+
+<div>
+	<h2 style="margin:8px;">Top Rated</h2>
+	<div class="row">
+	    <img src="https://assets.rappler.co/images/bestmovieposters-prometheus-20121221-01.jpg"
+		width="160"
+		height="100" />
+		<img src="https://static.moviecrow.com/marquee/money-heist-the-netflix-webseries-is-talk-of-the-town/177544_thumb_665.jpg"
+		width="160"
+		height="100" />
+		<img src="https://assets.rappler.co/images/bestmovieposters-skyfall-20121221-07.jpg"
+		width="160"
+		height="100" />
+		<img src="https://blog.karachicorner.com/wp-content/uploads/2013/04/large/Errors+of+the+Human+Body+movie+posters.jpg"
+		width="160"
+		height="100" />
+		<img src="https://graphicdesignjunction.com/wp-content/uploads/2010/12/skyline_movie_poster.jpg"
+		width="160"
+		height="100" />
+		<img src="https://assets.rappler.co/images/bestmovieposters-thehobbit-20121221-08.jpg"
+		width="160"
+		height="100" />
+		<img src="https://i.pinimg.com/736x/89/88/bf/8988bf30657361a08fbbd3bd7a8fcda1.jpg"
+		width="160"
+		height="100" />
+		<img src="https://www.indiewire.com/wp-content/uploads/2017/09/another-earth-2011.jpg?w=674"
+		width="160"
+		height="100" />
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQowB2yVfDZj1JsixliEuSgIMdCBRG9TkyhWA&usqp=CAU"
+		width="160"
+		height="100" />
+		<img src="https://i.pinimg.com/originals/e7/ce/18/e7ce18a8b9b1c6041554538b795de46c.jpg"
+		width="160"
+		height="100" />
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpEQp5SkOqqJY3MyRvr7Q65pYyt_qrGSEiWQ&usqp=CAU"
+		width="160"
+		height="100" />
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcST5fhATUum0EByWpeEAQSkMbUi1Qm_LNMwwQ&usqp=CAU"
+		width="160"
+		height="100" />
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRyRUxJq7LNbzmcoRZPb7OUgyS9FWaZyYsDZg&usqp=CAU"
+		width="160"
+		height="100" />
+    </div>
+</div>
+
+
+ <div>
+       <h2 style="margin: 8px;">Comedy Movies</h2>
+      <div class="row">
+        <img src="https://www.filmsourcing.com/wp-content/uploads/2013/03/comedy-poster-tutorial-5.jpg"
+		width="160"
+		height="100" />
+		<img src="https://www.discountdisplays.co.uk/our-blog/wp-content/uploads/the-hangover-movie-poster.jpg"
+		width="160"
+		height="100" />
+		<img src="https://www.filmsourcing.com/wp-content/uploads/2013/03/bridesmaids-poster.jpg"
+		width="160"
+		height="100" />
+		<img src="https://cdn.onebauer.media/one/empire-legacy/uploaded/backtoback2.jpg?quality=50&width=1000&ratio=1-1&resizeStyle=aspectfit&format=jpg"
+		width="160"
+		height="100" />
+		<img src="https://spyrestudios.com/wp-content/uploads/comedy-posters/88_comedyposter.jpg"
+		width="160"
+		height="100" />
+		<img src="https://www.filmsourcing.com/wp-content/uploads/2013/03/werethemillers-poster.jpg"
+		width="160"
+		height="100" />
+		<img src="https://cdn.onebauer.media/one/empire-legacy/uploaded/threefloatyfaces3.jpg?quality=50&width=1000&ratio=1-1&resizeStyle=aspectfit&format=jpg"
+		width="160"
+		height="100" />
+		<img src="https://c8.alamy.com/comp/PM5NBG/russell-brand-as-arthur-in-warner-bros-pictures-romantic-comedy-arthur-a-warner-bros-pictures-release-poster-PM5NBG.jpg"
+		width="160"
+		height="100" />
+		<img src="https://www.discountdisplays.co.uk/our-blog/wp-content/uploads/ace-ventura-when-nature-calls-movie-poster.jpg"
+		width="160"
+		height="100" />
+		<img src="https://avelvetbison.files.wordpress.com/2010/07/dinnerschmucks.jpg"
+		width="160"
+		height="100" />	
+		<img src="https://i2.wp.com/www.orphicpixel.com/wp-content/uploads/2012/03/image018.jpg?fit=550%2C791&ssl=1"
+		width="160"
+		height="100" />
+		<img src="https://www.filmsourcing.com/wp-content/uploads/2013/03/howtolosefriendsandalienatepeople-poster.jpg"
+		width="160"
+		height="100" />
+		<img src="https://c8.alamy.com/comp/F6JF79/aug-19-2003-hollywood-ca-usa-poster-for-the-romantic-comedy-a-guy-F6JF79.jpg"
+		width="160"
+		height="100" />
+	    </div>	
+ </div>
+
+    <div>
+ 	    <h2 style="margin: 8px;">Romatic Movies</h2>
+ 	    <div class="row">
+ 		 <img src="https://121clicks.com/wp-content/uploads/2011/10/movie_posters_photography14.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://121clicks.com/wp-content/uploads/2011/10/movie_posters_photography13.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://121clicks.com/wp-content/uploads/2011/10/movie_posters_photography15.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://121clicks.com/wp-content/uploads/2011/10/movie_posters_photography15.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://121clicks.com/wp-content/uploads/2011/10/movie_posters_photography28.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://i.pinimg.com/564x/b0/59/67/b05967a19c091a6550f7f2e209ce3f9b.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://www.washingtonpost.com/graphics/2019/entertainment/oscar-nominees-movie-poster-design/img/star-is-born-web.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://i.pinimg.com/236x/9d/ed/57/9ded575619edc1a9ad3d00a5a5a55b39--city-of-angels-angels-among-us.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://121clicks.com/wp-content/uploads/2011/10/movie_posters_photography25.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://i.pinimg.com/originals/99/e7/45/99e7458be5c077385fea7de11dbd00d7.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://meansheets.files.wordpress.com/2012/01/last_chance_harvey.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://m.media-amazon.com/images/M/MV5BMTQ2NjE4NDE2NV5BMl5BanBnXkFtZTgwOTcwNDE5NzE@._V1_.jpg"
+		 width="160"
+		 height="100" />
+		 <img src="https://data1.ibtimes.co.in/photo/en/full/37195/movie-be-released-india-by-mvp-entertainment-chronicles-power-love-young-couples-rocky.jpg?w=900"
+		 width="160"
+	     height="100" />
+ 	    </div>
+ 	</div>    
+</body>
+</html>
