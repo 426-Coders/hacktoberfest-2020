@@ -1,7 +1,7 @@
 ---
 name: "Bharathi BMS"
 username: "bmsbharathi"
-image: "bmsbharathi.jpq"
+image: "bmsbharathi.jpg"
 facebook: "bmsbharathi"
 twitter: "@bms_barca"
 ---
