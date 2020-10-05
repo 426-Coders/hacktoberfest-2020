@@ -1,9 +1,0 @@
----
-name: "Ashim Chandaula"
-username: "Ashim582001"
-image: "ashim.jpg"
-instagram: "@ashimchandu"
-facebook: "Ashim Chandaula"
----
-
-Play pubgmobile.
