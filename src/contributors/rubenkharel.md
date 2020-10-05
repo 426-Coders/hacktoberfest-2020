@@ -1,7 +1,8 @@
 ---
 Name: Ruben Kharel
 username: rubenkharel
-image: rubenkahrel.jpg
+image: rubenkharel.jpg
+facebook: oneel.nyyra
 tiwtter: rub3nkhar3l
 ---
 
