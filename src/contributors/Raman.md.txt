@@ -1,8 +1,8 @@
 ---
 name: "Raman Khadgi"
 username: "XxPlayerxX"
-image: ""
-facebook: "Raman Khadgi"
+image: "raman.jpg"
+facebook: "<your facebook username>"
+instagram: "<your instagram username>"
+twitter: "<your twitter username>"
 ---
-
-Hello, I am Raman Khadgi.
