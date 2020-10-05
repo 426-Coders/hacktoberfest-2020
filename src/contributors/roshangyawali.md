@@ -1,7 +1,7 @@
 ---
 name: "roshan gyawali"
 username: "roshan00017"
-image: "rg.jpg"
+image: "roshan.jpg"
 
 ---
 I am Roshan Gyawali
