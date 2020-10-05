@@ -5,4 +5,4 @@ image: "sushan.jpg"
 facebook: "sushaan.shakya"
 ---
 
-Hello, I am sushan shakya.
+Computer Enthusiast | student
