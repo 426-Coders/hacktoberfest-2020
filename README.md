@@ -43,10 +43,10 @@ Replace `<your-username>` with your GitHub username in this guide.
 
 ## 1. Add your profile picture to the folder
 
-Add a picture picture of your choice in `src/image`. Accepted files are **jpg** and **png**, should be squared in shape. Ex.
+Add a picture picture of your choice in `src/images`. Accepted files are **jpg** and **png**, should be squared in shape. Ex.
 
 ```
-src/image/<your-username>.jpg
+src/images/<your-username>.jpg
 ```
 
 _Be aware, this picture will be displayed on the actual site._
