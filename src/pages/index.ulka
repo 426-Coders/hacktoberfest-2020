@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | {% globalInfo.configs.siteMetaData.title %}</title>
+    <title>Home | {% info.configs.siteMetaData.title %}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="{% $assets('../styles/style.css') %}" />
     {% $import('../components/meta-tags.ulka', {
@@ -16,10 +16,10 @@
     <h1 id="title" class="text-center mt-3">Hacktoberfest &copy2020</h1>
     <div class="container mt-5">
       <div class="row">
-          {% globalInfo.contentFiles.contributors
+          {% contents.contributors
             .sort((a,b) => {
-              const first = a.frontMatter.name;
-              const second = b.frontMatter.name;
+              const first = a.values.frontMatter.name;
+              const second = b.values.frontMatter.name;
               return (first < second) ? -1 : (first > second) ? 1 : 0;
             })
             .map(content => {
@@ -27,10 +27,10 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
                   <div class="our-team">
                     <div class="picture">
-                      <img class="img-fluid" src="${$assets('../images/' + content.frontMatter.image)}" />
+                      <img class="img-fluid" src="${$assets('../images/' + content.values.frontMatter.image)}" />
                     </div>
                     <div class="team-content">
-                      <h3 class="name"><a href="${content.link}">${content.frontMatter.name}</a></h3>
+                      <h3 class="name"><a href="${content.link}">${content.values.frontMatter.name}</a></h3>
                     </div>
                   </div>
                 </div>
