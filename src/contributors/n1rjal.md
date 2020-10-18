@@ -1,7 +1,7 @@
 ---
 name: "Nirjal Paudel"
 username: "n1rjal"
-image: ""
+image: "n1rjal.jpg"
 facebook: "Nirjal Paudel"
 ---
 
