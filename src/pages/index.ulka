@@ -18,8 +18,8 @@
       <div class="row">
           {% contents.contributors
             .sort((a,b) => {
-              const first = a.values.frontMatter.name;
-              const second = b.values.frontMatter.name;
+              const first = a.values.frontMatter.name.toLowerCase();
+              const second = b.values.frontMatter.name.toLowerCase();
               return (first < second) ? -1 : (first > second) ? 1 : 0;
             })
             .map(content => {
