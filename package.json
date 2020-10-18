@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "ulka build",
+    "develop": "ulka develop",
     "serve": "ulka serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ulka": "^0.5.3"
+    "ulka": "^0.6.2"
   }
 }
