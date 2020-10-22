@@ -7,7 +7,16 @@ module.exports = {
   buildPath: 'build',
   pagesPath: 'pages',
   templatesPath: 'templates',
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'ulka-plugin-minifier',
+      options: {
+        html: {
+          collapseWhitespace: false,
+        },
+      },
+    },
+  ],
   contents: [
     {
       path: 'contributors',

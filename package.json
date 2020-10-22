@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ulka": "^0.6.2"
+    "ulka": "^0.6.7-rc.1",
+    "ulka-plugin-minifier": "^1.0.2-s"
   }
 }
