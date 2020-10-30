@@ -1,0 +1,8 @@
+---
+name: "Raman Khadgi"
+username: "XxPlayerxX"
+image: "raman.jpg"
+facebook: "<your facebook username>"
+instagram: "<your instagram username>"
+twitter: "<your twitter username>"
+---
